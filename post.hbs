@@ -19,7 +19,9 @@
             <h1 class="post-title">{{title}}</h1>
             <section class="post-meta">
                 <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}}
+                <a class="show-comments" href="#comments">Show comments (via Disqus)</p>
             </section>
+
         </header>
 
         <section class="post-content">
@@ -69,6 +71,7 @@
                 </a>
             </section>
 
+            {{> comments}}
         </footer>
 
     </article>

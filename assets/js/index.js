@@ -8,6 +8,13 @@
 
     var $document = $(document);
 
+    var enableComments = function () {
+      $('.show-comments').on('click', function() {
+        loadDisqus();
+        $('.show-comments').fadeOut();
+      });
+    };
+
     $document.ready(function () {
 
         var $postContent = $(".post-content");
@@ -20,6 +27,7 @@
             $("body").toggleClass("nav-opened nav-closed");
         });
 
+        enableComments();
     });
 
     // Arctic Scroll by Paul Adam Davis
