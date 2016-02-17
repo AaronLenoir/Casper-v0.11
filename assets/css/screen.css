@@ -554,6 +554,7 @@ body.nav-opened .site-wrapper {
     max-width: 710px;
     margin: 4rem auto;
     word-wrap: break-word;
+    font-family: sans-serif;
 }
 
 .nav ul {
