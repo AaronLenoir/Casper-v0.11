@@ -8,6 +8,7 @@
 
     var showCommentsClicked = function () {
       var elements = document.getElementsByClassName("show-comments");
+      var i;
       for (i = 0; i < elements.length; i += 1) {
         elements[i].style.display = "none";
       }
