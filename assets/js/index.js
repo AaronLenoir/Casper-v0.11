@@ -6,8 +6,11 @@
 (function () {
     "use strict";
 
-    var showCommentsClicked = function (event) {
-      event.target.style.display = "none";
+    var showCommentsClicked = function () {
+      var elements = document.getElementsByClassName("show-comments");
+      for (i = 0; i < elements.length; i += 1) {
+        elements[i].style.display = "none";
+      }
       loadDisqus();
     };
 
