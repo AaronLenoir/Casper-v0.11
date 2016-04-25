@@ -17,7 +17,7 @@
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     {{! Ghost outputs important style and meta data with this tag }}
-    
+
     {{ghost_head}}
 </head>
 <body class="{{body_class}} nav-closed">
@@ -37,11 +37,10 @@
     </div>
 
     {{!-- jQuery needs to come before `{{ghost_foot}}` so that jQuery can be used in code injection --}}
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!--<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>-->
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
 
-    <script type="text/javascript" src="{{asset "js/jquery.fitvids.js"}}"></script>
     {{! The main JavaScript file for Casper }}
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
 </body>
