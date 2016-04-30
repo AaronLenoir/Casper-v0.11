@@ -1,3 +1,15 @@
+Modified version of the Casper Ghost theme.
+
+Changes:
+
+* Removed hamburger menu
+* Added disqus (loads only if user asks it by clicking on "comments")
+* Removed jQuery & fonts
+
+I'm occasionally changing to fit my needs, and to make it lighter where possible.
+
+See at: https://blog-aaronlenoir.rhcloud.com/
+
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/).
